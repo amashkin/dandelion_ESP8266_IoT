@@ -7,7 +7,7 @@
 
 void OTA_init() {
   // Hostname defaults to esp8266-[ChipID]
-  ArduinoOTA.setHostname("dandelion");
+  ArduinoOTA.setHostname("danEsp8266");
 
   // No authentication by default
   ArduinoOTA.setPassword("admin");
